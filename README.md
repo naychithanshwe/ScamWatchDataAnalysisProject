@@ -144,8 +144,7 @@ graph LR
 
 ## Sample Visualisations
 
-*Dashboard screenshots will be added here*
-
+![Executive Dashboard](./images/executive-dashboard-screenshot.png)
 ---
 
 ## Data Sources

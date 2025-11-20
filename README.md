@@ -10,7 +10,7 @@ The objective of this project is to identify emerging scam patterns in Australia
 
 ## Repository Contents
 
-### 1. Analytical Report (PDF)
+### 1. Analytical Report 
 **File:** [ScamWatch Data Analysis Report](https://github.com/naychithanshwe/ScamWatchDataAnalysisProject/blob/main/ScamWatch%20Data%20Report.pdf)
 
 This document includes a comprehensive analysis of scam trends, financial loss distribution, demographic impact, and changes in scam contact methods. The report contains:
@@ -24,8 +24,9 @@ This document includes a comprehensive analysis of scam trends, financial loss d
 
 ---
 
-### 2. Power BI Dashboard (.pbix)
-**File:** `ScamWatch Data Analysis Project.pbix`
+### 2. Power BI Dashboard 
+**File:** [ScamWatch Data Analysis PowerBI Dashboard PBIX](https://github.com/naychithanshwe/ScamWatchDataAnalysisProject/blob/main/ScamWatch%20Data%20Analysis%20Project.pbix)
+**File:** [ScamWatch Data Analysis PowerBI Dashboard PDF](https://github.com/naychithanshwe/ScamWatchDataAnalysisProject/blob/main/ScamWatch%20Data%20Analysis%20Project%20PowerBI%20Dashboard%20in%20PDF.pdf)
 
 An interactive dashboard designed for exploratory and descriptive analysis, including:
 
@@ -50,13 +51,6 @@ This script includes:
 - Data enrichment
 - Construction of a star-schema model
 - A final consolidated dataset suitable for BI and analytical reporting
-
----
-
-### 4. Project Summary (PDF)
-**File:** `ScamWatch Data Analysis Project.pdf`
-
-A concise visual summary containing selected dashboards, charts, and key metrics used throughout the analysis.
 
 ---
 

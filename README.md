@@ -26,6 +26,7 @@ This document includes a comprehensive analysis of scam trends, financial loss d
 
 ### 2. Power BI Dashboard 
 **File:** [ScamWatch Data Analysis PowerBI Dashboard PBIX](https://github.com/naychithanshwe/ScamWatchDataAnalysisProject/blob/main/ScamWatch%20Data%20Analysis%20Project.pbix)
+
 **File:** [ScamWatch Data Analysis PowerBI Dashboard PDF](https://github.com/naychithanshwe/ScamWatchDataAnalysisProject/blob/main/ScamWatch%20Data%20Analysis%20Project%20PowerBI%20Dashboard%20in%20PDF.pdf)
 
 An interactive dashboard designed for exploratory and descriptive analysis, including:
@@ -40,7 +41,10 @@ An interactive dashboard designed for exploratory and descriptive analysis, incl
 ---
 
 ### 3. SQL Data Processing Script
-**File:** [`ScamWatch Data Analysis Portfolio.sql`](./sql/ScamWatch%20Data%20Analysis%20Portfolio.sql)
+**File:** [`ScamWatch Data Analysis Portfolio.sql`](https://github.com/naychithanshwe/ScamWatchDataAnalysisProject/blob/main/SQL/ScamWatch%20Data%20Analysis%20Portfolio.sql)
+
+**File:** [`ScamWatch Data Analysis Portfolio.txt`](https://github.com/naychithanshwe/ScamWatchDataAnalysisProject/blob/main/SQL/ScamWatch%20Data%20Analysis%20Project%20SQL%20file%20in.txt)
+
 
 This script includes:
 
@@ -49,7 +53,7 @@ This script includes:
 - Date formatting and validation
 - Duplicate detection
 - Data enrichment
-- Construction of a star-schema model
+- Normalising the dataset
 - A final consolidated dataset suitable for BI and analytical reporting
 
 ---
@@ -111,14 +115,6 @@ The project uses a **star-schema model** to support efficient analytical queries
 | **Power BI Desktop** | Data visualisation and interactive reporting |
 | **Excel/CSV** | Data sources |
 | **GitHub** | Version control and portfolio presentation |
-
----
-
-## How to Use This Repository
-
-1. **Review the SQL script** to understand the ETL and data modelling steps.
-2. **Open the Power BI file** to explore interactive dashboards and insights.
-3. **Refer to the analytical report** for narrative interpretation and findings.
 
 ---
 

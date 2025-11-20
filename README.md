@@ -1,2 +1,164 @@
-# ScamWatchDataAnalysisProject
-Analysis of 1.3M+ scam reports (2020-2024) revealing 12x increase in phishing losses. Data-driven foundation for AWS-based AI detection system targeting email/SMS threats.
+# ScamWatch Data Analysis Project
+
+## Overview
+
+This repository contains the complete analytical workflow for the **ScamWatch Data Analysis Project**, based on ScamWatch datasets from 2020 to 2024. The project includes data cleaning and transformation using SQL Server, development of a star-schema data model, and creation of an interactive Power BI dashboard and a written analytical report.
+
+The objective of this project is to identify emerging scam patterns in Australia, analyse demographic and financial impacts, and present evidence-based findings through business-ready visualisations and documentation.
+
+---
+
+## Repository Contents
+
+### 1. Analytical Report (PDF)
+**File:** `ScamWatch Data Report.pdf`
+
+This document includes a comprehensive analysis of scam trends, financial loss distribution, demographic impact, and changes in scam contact methods. The report contains:
+
+- Executive summary
+- Data processing and methodology
+- Visual analytics and narrative insights
+- Scam type comparison
+- Demographic and regional analysis
+- Conclusions
+
+---
+
+### 2. Power BI Dashboard (.pbix)
+**File:** `ScamWatch Data Analysis Project.pbix`
+
+An interactive dashboard designed for exploratory and descriptive analysis, including:
+
+- Scam frequency trends across years
+- Financial loss over time
+- Comparison of scam categories
+- Gender and age group segmentation
+- State-level financial loss per 100,000 population
+- Contact method evolution and emerging patterns
+
+---
+
+### 3. SQL Data Processing Script
+**File:** [`ScamWatch Data Analysis Portfolio.sql`](./sql/ScamWatch%20Data%20Analysis%20Portfolio.sql)
+
+This script includes:
+
+- Importing and combining multiple CSV datasets (2020–2025)
+- Cleaning and standardising the `Amount_lost` field
+- Date formatting and validation
+- Duplicate detection
+- Data enrichment
+- Construction of a star-schema model
+- A final consolidated dataset suitable for BI and analytical reporting
+
+---
+
+### 4. Project Summary (PDF)
+**File:** `ScamWatch Data Analysis Project.pdf`
+
+A concise visual summary containing selected dashboards, charts, and key metrics used throughout the analysis.
+
+---
+
+## Objectives
+
+The primary objectives of this project are to:
+
+- Identify the most frequent and the most financially damaging scam types
+- Understand the demographic groups most affected
+- Analyse state-level differences in scam losses
+- Examine the shift in scam contact modes from 2020 to 2024
+- Deliver a clear, data-driven summary suitable for stakeholders
+
+---
+
+## Key Insights
+
+- **Phishing** is consistently the most commonly reported scam type, accounting for **30.79%** of total reports.
+- **Investment scams**, while representing only **3.2%** of reports, contribute more than **52.59%** of total financial losses.
+- **Phone call scams** declined significantly after 2021, with **email and SMS** becoming increasingly common contact methods.
+- Individuals **aged 55 and above** represent the largest proportion of reports and financial losses.
+- **Males** experience higher financial loss compared to females, largely due to disproportionate exposure to investment scams.
+- The **Australian Capital Territory** recorded the highest loss per 100,000 population beginning in 2021.
+
+---
+
+## Data Model
+
+The project uses a **star-schema model** to support efficient analytical queries.
+
+### Fact Table
+
+**`FactScamReports`**
+- Report date
+- Number of reports
+- Amount lost
+- ScamTypeID
+- AgeGroupID
+- GenderID
+- RegionID
+- ContactModeID
+
+### Dimension Tables
+
+- **`DimScamType`** - Scam category classifications
+- **`DimAgeGroup`** - Age brackets (Under 18, 18-24, 25-34, 35-44, 45-54, 55-64, 65+, Unspecified)
+- **`DimGender`** - Gender classifications
+- **`DimRegion`** - Australian states and territories
+- **`DimContactMode`** - Contact methods (Email, Phone, SMS, Social Media, etc.)
+
+---
+
+## Tools and Technologies
+
+| Tool | Purpose |
+|------|---------|
+| **SQL Server Management Studio (SSMS)** | ETL, data cleaning, and dimensional modelling |
+| **Power BI Desktop** | Data visualisation and interactive reporting |
+| **Excel/CSV** | Data sources |
+| **GitHub** | Version control and portfolio presentation |
+
+---
+
+## How to Use This Repository
+
+1. **Review the SQL script** to understand the ETL and data modelling steps.
+2. **Open the Power BI file** to explore interactive dashboards and insights.
+3. **Refer to the analytical report** for narrative interpretation and findings.
+
+---
+
+## Project Workflow
+```mermaid
+graph LR
+    A[Raw CSV Data] --> B[SQL Server - ETL]
+    B --> C[Star Schema Model]
+    C --> D[Power BI Dashboard]
+    C --> E[Statistical Analysis]
+    D --> F[Visual Insights]
+    E --> F
+    F --> G[Analytical Report]
+```
+
+---
+
+## Sample Visualisations
+
+*Dashboard screenshots will be added here*
+
+---
+
+## Data Sources
+
+- **Primary:** ScamWatch (Australian Competition and Consumer Commission)
+- **Supplementary:** Australian Bureau of Statistics (ABS) - Population data
+
+---
+
+## Contact
+
+**Nay Chi Than Shwe**
+- LinkedIn: [https://www.linkedin.com/in/nay-chi-than-shwe-64b653165/]
+- Email: [naychithanshwe94@gmail.com]
+
+---

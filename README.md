@@ -140,13 +140,6 @@ graph LR
     F --> G[Analytical Report]
 ```
 
----
-
-## Sample Visualisations
-
-![Executive Dashboard](./images/executive-dashboard-screenshot.png)
----
-
 ## Data Sources
 
 - **Primary:** ScamWatch (Australian Competition and Consumer Commission)

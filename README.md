@@ -11,7 +11,7 @@ The objective of this project is to identify emerging scam patterns in Australia
 ## Repository Contents
 
 ### 1. Analytical Report (PDF)
-**File:** `ScamWatch Data Report.pdf`
+**File:** [ScamWatch Data Analysis Report](https://github.com/naychithanshwe/ScamWatchDataAnalysisProject/blob/main/ScamWatch%20Data%20Report.pdf)
 
 This document includes a comprehensive analysis of scam trends, financial loss distribution, demographic impact, and changes in scam contact methods. The report contains:
 

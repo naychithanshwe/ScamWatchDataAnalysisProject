@@ -137,6 +137,14 @@ graph LR
 
 ---
 
+## Accessibility Considerations
+
+Colour palettes were selected using the [Venngage Accessible Colour Palette Generator](https://venngage.com/tools/accessible-color-palette-generator) to support visual accessibility.
+
+**Colour Palette:** #777C6D, #B7B89F, #D6A77A
+
+---
+
 ## Contact
 
 **Nay Chi Than Shwe**
